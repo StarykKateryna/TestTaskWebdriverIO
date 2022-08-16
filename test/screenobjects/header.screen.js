@@ -7,8 +7,6 @@ class HeaderScreen {
     get cart() {
       return $('~test-Cart');
     }
-
-    
   }
   
   export default new HeaderScreen();

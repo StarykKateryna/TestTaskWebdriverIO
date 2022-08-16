@@ -28,7 +28,7 @@ class CheckoutScreen {
       await this.continueBtn.click();
     }
 
-      //checkout overview 
+    //checkout overview 
 
     itemName(name) {
       return $(`~${name}`);
@@ -50,7 +50,7 @@ class CheckoutScreen {
       return $('~test-FINISH')
     }
 
-          //checkout COMPLETE 
+    //checkout COMPLETE 
 
     get checkoutComplited (){
       return $('//XCUIElementTypeOther[@name="CHECKOUT: COMPLETE!"]')
@@ -59,7 +59,6 @@ class CheckoutScreen {
     get orderSuccess(){
       return $('~THANK YOU FOR YOU ORDER')
     }
-    
   }
   
   export default new CheckoutScreen();

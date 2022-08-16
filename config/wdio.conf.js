@@ -26,7 +26,7 @@ config.capabilities = [
     "appium:platformVersion": "14 ",
     "appium:deviceName": "iPhone 12",
     "appium:automationName": "XCUITest",
-    "appium:app": "bs://923abd7808bac18d421ee3f5bf1f726a49c93282",
+    "appium:app": "bs://c87c27c24e9603e585ed2a5594935ab81b9e1d4c",
     "appium:autoGrantPermissions": true
   }
 ]

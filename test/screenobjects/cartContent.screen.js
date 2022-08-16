@@ -7,11 +7,9 @@ class CartContentScreen {
     return this.cartContent.$$('//XCUIElementTypeOther[@name="test-Item"]');
   }
 
-    get checkoutBtn() {
+  get checkoutBtn() {
       return $('~test-CHECKOUT')
     }
-
-    
   }
   
   export default new CartContentScreen();
